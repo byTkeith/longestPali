@@ -9,6 +9,7 @@ public class Palindrome {
         try{
             File file = new File(filename);
             scanner=new Scanner(file);
+            while(scanner.hasNextLine()){}
         }catch(FileNotFoundException e){
             System.out.println("File not found ASKIES!!!");
 

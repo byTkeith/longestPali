@@ -4,6 +4,7 @@ import java.util.*;
 public class Palindrome {
     public static void main(String[] args) {
         ArrayList<String> fileString=new ArrayList<>();
+        ArrayList<Character> palindromeList=new ArrayList<>();
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter the name of the file:");
         String filename= scanner.nextLine();
@@ -27,7 +28,9 @@ public class Palindrome {
             int charLength=charOfLine.length;
             for(i=0;i<charOfLine.length;i++ ){
                 if(charOfLine[i]==charOfLine[charLength-i-1]){
-                    
+                    for(int j=i;j<charLength-i-1;j++){}
+                    //palindromeList.add(charOfLine[])
+
                 }
             }
         }

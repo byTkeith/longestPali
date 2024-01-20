@@ -28,7 +28,9 @@ public class Palindrome {
             int charLength=charOfLine.length;
             for(i=0;i<charOfLine.length;i++ ){
                 if(charOfLine[i]==charOfLine[charLength-i-1]){
-                    for(int j=i;j<charLength-i-1;j++){}
+                    for(int j=i;j<charLength-i-1;j++){
+                        palindromeList.add(charOfLine[j]);
+                    }
                     //palindromeList.add(charOfLine[])
 
                 }

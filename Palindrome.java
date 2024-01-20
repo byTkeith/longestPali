@@ -3,6 +3,7 @@ import java.io.*;
 import java.util.*;
 public class Palindrome {
     public static void main(String[] args) {
+        ArrayList<String> fileString=new ArrayList<>();
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter the name of the file:");
         String filename= scanner.nextLine();

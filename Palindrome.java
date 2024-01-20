@@ -21,7 +21,9 @@ public class Palindrome {
                 scanner.close();
             }
         }
-        for(String lineStrings: fileString){}
+        for(String lineStrings: fileString){
+            char[] charOfLine=lineStrings.toCharArray();
+        }
        
     }
     

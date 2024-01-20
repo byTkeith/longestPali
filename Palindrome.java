@@ -6,6 +6,9 @@ public class Palindrome {
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter the name of the file:");
         String filename= scanner.nextLine();
+        try{
+            
+        }
        
     }
     

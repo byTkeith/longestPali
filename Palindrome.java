@@ -24,7 +24,12 @@ public class Palindrome {
         for(String lineStrings: fileString){
             char[] charOfLine=lineStrings.toCharArray();
             int i;
-            for(i=0;i<charOfLine.length;i++ ){}
+            int charLength=charOfLine.length;
+            for(i=0;i<charOfLine.length;i++ ){
+                if(charOfLine[i]==charOfLine[charLength-i-1]){
+                    
+                }
+            }
         }
        
     }
